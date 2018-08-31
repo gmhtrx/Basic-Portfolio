@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-image: url("../images/purty_wood.png");
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.headersize {
+    background-color: white;
+    width: 960px;
+    height: 80px;
+}
+.header-title{
+    background-color: black;
+    color: white;
+    width: 251px;
+    height: 80px;
+    float: left;
+    padding: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+    padding-top: 25px;
+}
+li {
+    float: left;
+}
+li a {
+    color: black;
+    background-color: white;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a.navborder {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+section {
+    background-color: rgba(255,255,255,0.8);
+    width: 960px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+section div.break{
+    border-bottom: 4px solid black;
+    padding-bottom: 25px;
+}
+div.container {
+    padding-top: 25px;
+    overflow: auto;
+    position: relative;
+    
+}
+img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+div #me {
+    float: left;
+}
+.img {
+    position: relative;
+    float: left;
+    width: 275px;
+    height: 210px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 12px;
+}
+p.textbox{
+    color: black;
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    bottom: 5px;
+    width: 275px;
+    height: 60px;
+    padding: 25px;
+    text-align: center;
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+input#submit{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    text-align: center;
+}
+footer {
+    background-color: white;
+    border-top: 10px solid black;
+    height: 60px;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 25px;
+    margin-top: 40px;
+}
